@@ -24,6 +24,17 @@ Pdok.Api.prototype.defaultLayers = {
         layer: 'brtachtergrondkaartgrijstijdelijk',
         style: null,
         matrixSet: 'EPSG:28992',
+        visibility: false,
+        isBaseLayer: true,
+        attribution: '&copy OSM & Kadaster'
+    },
+   BRTachtergrondkaartgrijs: {
+        layertype: 'WMTS',
+        name: 'BRT Achtergrondkaart Grijs (WMTS)',
+        url: 'http://geodata.nationaalgeoregister.nl/wmts/',
+        layer: 'brtachtergrondkaartgrijs',
+        style: null,
+        matrixSet: 'EPSG:28992',
         visibility: true,
         isBaseLayer: true,
         attribution: '&copy OSM & Kadaster'
